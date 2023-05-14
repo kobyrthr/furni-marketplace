@@ -1,0 +1,77 @@
+.wrapper {
+  padding: 100px 0px;
+  padding-top: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1170px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 25px;
+}
+.title {
+  font-family: "Dhyana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 100%;
+  color: #000000;
+}
+.allTabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 35px 0;
+  flex-wrap: wrap;
+}
+.tabContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 22px;
+  border: 1px solid #8c8c8c;
+  cursor: pointer;
+}
+.tab {
+  font-family: "Dhyana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+
+  color: #8c8c8c;
+}
+.activeTabContainer {
+  background: #f6b50e;
+  border: 1px solid #f6b50e;
+}
+.activeTabContainer .tab {
+  color: #fff;
+}
+@media only screen and (max-width: 1050px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .products {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .wrapper {
+    padding-top: 115px;
+  }
+  .title {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,30 @@
+.wrapper {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3a5349;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 100;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.arrow {
+  color: #fff;
+  font-size: 32px;
+}
+@media only screen and (max-width: 520px) {
+  .wrapper {
+    width: 40px;
+    height: 40px;
+    right: 15px;
+    bottom: 25px;
+  }
+  .arrow {
+    font-size: 20px;
+  }
+}
