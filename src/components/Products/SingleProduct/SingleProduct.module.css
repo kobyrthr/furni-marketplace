@@ -1,0 +1,84 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+.image {
+  width: 100%;
+}
+.name {
+  font-family: "Dhyana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: #373737;
+}
+.review {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.starContainer {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.star {
+  color: #ff6f00;
+  font-size: 18px;
+}
+.reviewText {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* identical to box height, or 120% */
+  color: #8c8c8c;
+}
+.price {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  color: #000000;
+}
+.type {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: #878686;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+.likeContainer {
+  background: #3a5349;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+.like {
+  color: #ffffff;
+  font-size: 22px;
+}
+@media only screen and (max-width: 380px) {
+  .name,
+  .price {
+    font-size: 24px;
+  }
+}

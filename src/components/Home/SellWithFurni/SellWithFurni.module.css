@@ -1,0 +1,84 @@
+.wrapper {
+  background: rgb(83, 119, 94, 0.05);
+  padding: 50px 0px;
+}
+.saleWithFurni {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+.image {
+  max-width: 355px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  max-width: 476px;
+  width: 100%;
+}
+.title {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+  text-align: center;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #3a5349;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.text {
+  font-family: "Dhyana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: center;
+  color: #3a5349;
+  padding: 8px 12px;
+}
+.button {
+  font-family: "Dhyana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  color: #53775e;
+  padding: 15px 25px;
+  background: transparent;
+  outline: none;
+
+  display: block;
+  border: 1px solid #53775e;
+  cursor: pointer;
+}
+@media only screen and (max-width: 991px) {
+  .saleWithFurni {
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 575px) {
+}
