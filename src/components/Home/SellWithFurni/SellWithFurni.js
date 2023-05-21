@@ -4,7 +4,7 @@ import { furni } from "../../../images/image";
 const SellWithFurni = () => {
   return (
     <section className={styles.wrapper}>
-      <div className={styles.saleWithFurni}>
+      <div className={styles.sellWithFurni}>
         <img src={furni} alt="#" className={styles.image} />
         <div className={styles.textContainer}>
           <h2 className={styles.title}>Sell with Furni</h2>
