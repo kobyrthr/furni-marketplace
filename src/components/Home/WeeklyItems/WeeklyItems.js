@@ -11,19 +11,19 @@ const WeeklyItems = () => {
   const categories = [
     {
       image: category1,
-      name: "Category 1",
+      name: "Couches",
     },
     {
       image: category2,
-      name: "Category 2",
+      name: "Plants",
     },
     {
       image: category3,
-      name: "Category 3",
+      name: "Artwork",
     },
     {
       image: category4,
-      name: "Category 4",
+      name: "Rugs",
     },
   ];
   return (

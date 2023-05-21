@@ -7,6 +7,9 @@ import category2 from "./category/category2.png";
 import category3 from "./category/category3.png";
 import category4 from "./category/category4.png";
 import brand from "./brands/brands.png";
+import Crate_Barrel from "./brands/Crate_Barrel.png"
+import IKEA from "./brands/IKEA.png"
+import Pottery_Barn from "./brands/Pottery_Barn.png"
 import furni from "./furni.png";
 import product1 from "./products/product1.png";
 import product2 from "./products/product2.png";
@@ -22,6 +25,9 @@ export {
   category3,
   category4,
   brand,
+  Crate_Barrel,
+  IKEA,
+  Pottery_Barn,
   furni,
   product1,
   product2,
