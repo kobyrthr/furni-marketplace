@@ -1,4 +1,5 @@
 import priceTag from "./priceTag.svg";
+import handcart from "./handcart.svg";
 import firstProduct from "./product1.png";
 import secondProduct from "./product2.png";
 import category1 from "./category/category1.png";
@@ -13,6 +14,7 @@ import product3 from "./products/product3.png";
 
 export {
   priceTag,
+  handcart,
   firstProduct,
   secondProduct,
   category1,

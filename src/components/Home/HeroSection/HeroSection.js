@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HeroSection.module.css";
-import { firstProduct, priceTag, secondProduct } from "../../../images/image";
+import { firstProduct, priceTag, handcart, secondProduct } from "../../../images/image";
 
 const HeroSection = () => {
   return (
@@ -23,7 +23,7 @@ const HeroSection = () => {
         <div className={styles.imageContainer}>
           {" "}
           <img src={secondProduct} alt="#" className={styles.image} />{" "}
-          <img src={priceTag} alt="#" className={styles.priceTag} />
+          <img src={handcart} alt="#" className={styles.priceTag} />
         </div>
       </div>
       <button className={styles.button}>Browse Full Collection</button>
