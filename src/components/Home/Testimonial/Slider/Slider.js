@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./style.css";
 import styles from "./Slider.module.css";
-import { firstProduct } from "../../../../images/image";
+import { furniture_corner } from "../../../../images/image";
 import SingleSlider from "./SingleSlider/SingleSlider";
 
 const MySlider = () => {
@@ -14,38 +14,38 @@ const MySlider = () => {
     {
       review:
         "I'm a fan of sustainable shopping and love finding unique pieces with a history. Furni offers an amazing selection of beautifully curated furniture. I found a stunning armchair that perfectly complemented my home decor.",
-      profileImge: firstProduct,
+      profileImge: furniture_corner,
       name: "David Nyoman",
     },
 
     {
       review:
         "Furni is a sustainable shopper's dream! Their curated furniture is exquisite. I found a charming desk that adds character to my workspace. Ordering was easy, and their customer service was exceptional.",
-      profileImge: firstProduct,
+      profileImge: furniture_corner,
       name: "Ethan Thompson",
     },
     {
       review:
       "I'm a fan of sustainable shopping and love finding unique pieces with a history. Furni offers an amazing selection of beautifully curated furniture. I found a stunning armchair that perfectly complemented my home decor.",
-      profileImge: firstProduct,
+      profileImge: furniture_corner,
       name: "Olivia Parker",
     },
     {
       review:
         "Love Furni's sustainable ethos! The curated furniture selection is amazing. Scored a stunning mid-century dresser that completes my bedroom. Ordering was a breeze, and their customer service was top-notch.",
-      profileImge: firstProduct,
+      profileImge: furniture_corner,
       name: "Liam Mitchell",
     },
     {
       review:
       "Furni is a sustainable shopper's dream! Their curated furniture is exquisite. I found a charming desk that adds character to my workspace. Ordering was easy, and their customer service was exceptional.",
-      profileImge: firstProduct,
+      profileImge: furniture_corner,
       name: "Ava Reynolds",
     },
     {
       review:
       "Furni is a sustainable shopper's dream! Their curated furniture is exquisite. I found a charming desk that adds character to my workspace. Ordering was easy, and their customer service was exceptional.",
-      profileImge: firstProduct,
+      profileImge: furniture_corner,
       name: "Noah Ramirez",
     },
   ];
