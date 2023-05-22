@@ -16,7 +16,6 @@
   font-size: 80px;
   line-height: 77%;
   text-align: center;
-  font-feature-settings: "tnum" on, "lnum" on;
   color: #3a5349;
   position: relative;
   display: inline-block;
@@ -30,17 +29,15 @@
 .brands {
   display: flex;
   flex-direction: column;
-  background: #ffffff;
-  border-radius: 8px;
+  background: #ECE8D9;
 }
 .image {
   width: 100%;
-  border-radius: 8px 8px 0 0;
 }
 .name {
   font-family: "Dhyana";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 0;
   font-size: 24px;
   line-height: 139%;
   text-transform: capitalize;

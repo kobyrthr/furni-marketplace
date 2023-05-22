@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HeroSection.module.css";
-import { firstProduct, priceTag, secondProduct } from "../../../images/image";
+import { moving_service, furniture_corner, priceTag, handcart } from "../../../images/image";
 
 const HeroSection = () => {
   return (
@@ -17,13 +17,13 @@ const HeroSection = () => {
           </h4>
         </div>
         <div className={styles.imageContainer}>
-          <img src={firstProduct} alt="#" className={styles.image} />{" "}
+          <img src={furniture_corner} alt="#" className={styles.image} />{" "}
           <img src={priceTag} alt="#" className={styles.priceTag} />
         </div>
         <div className={styles.imageContainer}>
           {" "}
-          <img src={secondProduct} alt="#" className={styles.image} />{" "}
-          <img src={priceTag} alt="#" className={styles.priceTag} />
+          <img src={moving_service} alt="#" className={styles.image} />{" "}
+          <img src={handcart} alt="#" className={styles.priceTag} />
         </div>
       </div>
       <button className={styles.button}>Browse Full Collection</button>

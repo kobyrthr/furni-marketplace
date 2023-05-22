@@ -16,7 +16,6 @@
   line-height: 77%;
   text-align: center;
   letter-spacing: -4.11591px;
-  font-feature-settings: "tnum" on, "lnum" on;
   color: #3a5349;
 }
 .productContainer {
@@ -31,7 +30,7 @@
   align-items: center;
   gap: 10px;
   background: #3a5349;
-  border-radius: 146.78px;
+  border-radius: 400px;
   padding: 60px;
 }
 .text {

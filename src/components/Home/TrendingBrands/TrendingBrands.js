@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./TrendingBrands.module.css";
-import { brand } from "../../../images/image";
+import { brand, Crate_Barrel,IKEA,Pottery_Barn } from "../../../images/image";
 
 const TrendingBrands = () => {
   const brands = [
-    { img: brand, name: "Crate & Barrel" },
-    { img: brand, name: "Crate & Barrel" },
-    { img: brand, name: "Crate & Barrel" },
+    { img: Crate_Barrel, name: "Crate & Barrel" },
+    { img: Pottery_Barn, name: "Pottery Barn" },
+    { img: IKEA, name: "IKEA" },
   ];
   return (
     <section className={styles.wrapper}>
