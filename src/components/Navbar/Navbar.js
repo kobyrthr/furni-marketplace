@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.navbar}>
-        <p className={styles.logo}>Furni</p>
+        <a href="/" className={styles.logo}>Furni</a>
         <div className={[styles.navItems, sidebar && styles.sidebar].join(" ")}>
           {navItems.map((el, i) => (
             <NavLink
