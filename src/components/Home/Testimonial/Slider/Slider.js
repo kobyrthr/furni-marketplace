@@ -13,40 +13,40 @@ const MySlider = () => {
   const testimoinals = [
     {
       review:
-        "Dribbble is a really great site with really great people and the quality of content is excellent. Some of the best designers in the world use this, and it is inspirational.",
+        "I'm a fan of sustainable shopping and love finding unique pieces with a history. Furni offers an amazing selection of beautifully curated furniture. I found a stunning armchair that perfectly complemented my home decor.",
       profileImge: firstProduct,
-      name: "David Nyoman1",
+      name: "David Nyoman",
     },
 
     {
       review:
-        "Dribbble is a really great site with really great people and the quality of content is excellent. Some of the best designers in the world use this, and it is inspirational.",
+        "Furni is a sustainable shopper's dream! Their curated furniture is exquisite. I found a charming desk that adds character to my workspace. Ordering was easy, and their customer service was exceptional.",
       profileImge: firstProduct,
-      name: "David Nyoman",
+      name: "Ethan Thompson",
     },
     {
       review:
-        "Dribbble is a really great site with really great people and the quality of content is excellent. Some of the best designers in the world use this, and it is inspirational.",
+      "I'm a fan of sustainable shopping and love finding unique pieces with a history. Furni offers an amazing selection of beautifully curated furniture. I found a stunning armchair that perfectly complemented my home decor.",
       profileImge: firstProduct,
-      name: "David Nyoman",
+      name: "Olivia Parker",
     },
     {
       review:
-        "Dribbble is a really great site with really great people and the quality of content is excellent. Some of the best designers in the world use this, and it is inspirational.",
+        "Love Furni's sustainable ethos! The curated furniture selection is amazing. Scored a stunning mid-century dresser that completes my bedroom. Ordering was a breeze, and their customer service was top-notch.",
       profileImge: firstProduct,
-      name: "David Nyoman",
+      name: "Liam Mitchell",
     },
     {
       review:
-        "Dribbble is a really great site with really great people and the quality of content is excellent. Some of the best designers in the world use this, and it is inspirational.",
+      "Furni is a sustainable shopper's dream! Their curated furniture is exquisite. I found a charming desk that adds character to my workspace. Ordering was easy, and their customer service was exceptional.",
       profileImge: firstProduct,
-      name: "David Nyoman",
+      name: "Ava Reynolds",
     },
     {
       review:
-        "Dribbble is a really great site with really great people and the quality of content is excellent. Some of the best designers in the world use this, and it is inspirational.",
+      "Furni is a sustainable shopper's dream! Their curated furniture is exquisite. I found a charming desk that adds character to my workspace. Ordering was easy, and their customer service was exceptional.",
       profileImge: firstProduct,
-      name: "David Nyoman",
+      name: "Noah Ramirez",
     },
   ];
   const settings = {
