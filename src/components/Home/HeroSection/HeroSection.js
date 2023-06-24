@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./HeroSection.module.css";
 import { moving_service, furniture_corner, priceTag, handcart } from "../../../images/image";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -26,7 +27,7 @@ const HeroSection = () => {
           <img src={handcart} alt="#" className={styles.priceTag} />
         </div>
       </div>
-      <button className={styles.button}>Browse Full Collection</button>
+      <Link to="/Products"><button className={styles.button}>Browse Full Collection</button></Link>
     </section>
   );
 };
