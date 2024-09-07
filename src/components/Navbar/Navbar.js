@@ -16,10 +16,6 @@ const Navbar = () => {
       navItem: "Products",
       to: "/products",
     },
-    {
-      navItem: "Contact",
-      to: "/contact",
-    },
   ];
   return (
     <div className={styles.wrapper}>
